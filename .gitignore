@@ -1,0 +1,4 @@
+ml-data/*
+models/*
+log/*
+*.pyc

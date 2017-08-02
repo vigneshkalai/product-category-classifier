@@ -2,6 +2,10 @@
 
 This is a snapshot of the product category classification engine used by Two Tap. It uses glove word vectors and images to categorize a product to a unified [taxonomy](https://api.twotap.com/v1.0/product/taxonomy).
 
+## Known issues
+
+The current model is trained mostly on Apparel. It's really bad at electronics and other categories. There's an internal effort to improve this by adding new data.
+
 ## How to use the it with the pre-trained weights.
 
 * Clone the repo.
